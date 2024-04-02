@@ -34,6 +34,9 @@
         <i class="fa-regular fa-circle-notch fa-spin icon"></i>
       </div>
     </div>
+    
+    <div class="content hidden">
+    </div>
     <!-- Scroll Top -->
     <button
       type="button"
@@ -71,10 +74,32 @@
     </div>
     <main class="main">
       <div class="container">
-        <section class="country-details"></section>
+        <section class="country-flag">
+
+            <img src="https://flagcdn.com/w320/gb.png" alt="flag" /> 
+            <div class="details-text-container">
+              <h1>Icland</h1>
+            </section>
+              <div class="country-info">
+                <p><b>Native Name:</b> <b class="native-name"></b></p>
+                <p><b>Population:</b> <b class="population"></b></p>
+                <p><b>Region:</b> <b class="region"></b></p>
+               <p><b>Sub Region:</b> <b class="sub-region"></b></p>
+               <p><b>Capital:</b> <b class="capital"></b></p>
+               <p><b>Top Level Domain:</b> <b class="top-level-domain"></b></p>
+               <p><b>Currencies:</b> <b class="currencies"></b></p>
+               <p><b>Languages:</b> <b class="languages"></b></p>
+                
+              </div>
+
+            </div>
+          </div>
+       
       </div>
     </main>
-    <script src="./js/common.js"></script>
-    <script src="./js/details.js"></script>
+
+    <script src="countries.js"></script>
+    <script src="details.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </body>
 </html>
