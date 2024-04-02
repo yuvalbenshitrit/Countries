@@ -46,7 +46,7 @@ body {
   width: 450px;
   max-width: 450px;
   max-height: 350px;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: #111517;
   overflow: hidden;
   margin-right: 70px;
   border-radius: 6px;
@@ -132,4 +132,8 @@ body {
   align-items: inherit;
   gap: 8px;
   flex-wrap: wrap;
+}
+
+.hidden {
+  display: none;
 }
